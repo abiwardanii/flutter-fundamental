@@ -25,7 +25,9 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: Scaffold(
-        body: Text('sedang belajar flutter'),
+        body: SafeArea(
+          child: Text('belajar flutter'),
+        ),
       )
     );
   }
