@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import './font_style.dart';
+import 'custom_colors.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,11 +21,11 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
           appBar: AppBar(
             title: Text('Belajar Flutter'),
-            backgroundColor: Colors.blue,
+            backgroundColor: darkSilver,
           ),
           body: SafeArea(
               child: Container(
-                  color: Colors.blueAccent,
+                  //color: Colors.blueAccent,
                   margin: EdgeInsets.all(20),
                   padding:
                       EdgeInsets.only(top: 20, left: 20, right: 20, bottom: 20),
