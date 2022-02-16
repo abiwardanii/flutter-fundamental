@@ -1,0 +1,9 @@
+cara import images
+
+masuk ke file pubspec.yaml
+- uncomment assets:
+- sesuai path folder yang diinginkan
+
+Contoh:
+  assets:
+    - assets/images/GitHub-Mark-Light-64px.png
