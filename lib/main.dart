@@ -33,9 +33,15 @@ class MyApp extends StatelessWidget {
                   image: AssetImage('assets/images/GitHub-Mark-120px-plus.png'),
                   height: 200,
                 ),
-                Text(
-                  'Github',
-                  style: mainHeader,
+                Padding(
+                  padding: EdgeInsets.only(
+                    top: 20.0,
+                    bottom: 4.0,
+                  ),
+                  child: Text(
+                    'Github',
+                    style: mainHeader,
+                  ),
                 ),
                 Text(
                   'Reposiroty',
