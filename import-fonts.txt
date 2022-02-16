@@ -1,0 +1,9 @@
+cara import images
+
+masuk ke file pubspec.yaml
+- uncomment fonts:
+- sesuai path folder yang diinginkan
+
+Contoh:
+  assets:
+    - assets/fonts/GitHub-Mark-Light-64px.png

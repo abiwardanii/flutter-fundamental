@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import './font_style.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -31,8 +33,14 @@ class MyApp extends StatelessWidget {
                   image: AssetImage('assets/images/GitHub-Mark-120px-plus.png'),
                   height: 200,
                 ),
-                Text('Github'),
-                Text('Reposiroty'),
+                Text(
+                  'Github',
+                  style: mainHeader,
+                ),
+                Text(
+                  'Reposiroty',
+                  style: subHeader,
+                ),
               ],
             ),
           )),
