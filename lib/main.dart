@@ -40,6 +40,7 @@ class MyApp extends StatelessWidget {
                 Text(
                   'Reposiroty',
                   style: subHeader,
+                  textAlign: TextAlign.center,
                 ),
               ],
             ),
