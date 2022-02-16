@@ -24,7 +24,10 @@ class MyApp extends StatelessWidget {
             ],
           ),
           body: SafeArea(
-            child: Text('belajar flutter'),
+            child: Image(
+              image: AssetImage('assets/images/GitHub-Mark-120px-plus.png'),
+              height: 200,
+            ),
           ),
         ));
   }
