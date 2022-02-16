@@ -18,6 +18,10 @@ class MyApp extends StatelessWidget {
         home: Scaffold(
           appBar: AppBar(
             title: Text('Belajar Flutter'),
+            backgroundColor: Colors.blue,
+            actions: <Widget>[
+              IconButton(onPressed: () {}, icon: Icon(Icons.mail)),
+            ],
           ),
           body: SafeArea(
             child: Text('belajar flutter'),
