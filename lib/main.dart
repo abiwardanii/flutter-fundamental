@@ -19,16 +19,20 @@ class MyApp extends StatelessWidget {
           appBar: AppBar(
             title: Text('Belajar Flutter'),
             backgroundColor: Colors.blue,
-            actions: <Widget>[
-              IconButton(onPressed: () {}, icon: Icon(Icons.mail)),
-            ],
           ),
           body: SafeArea(
-            child: Image(
-              image: AssetImage('assets/images/GitHub-Mark-120px-plus.png'),
-              height: 200,
+              child: Container(
+            child: Column(
+              children: <Widget>[
+                Image(
+                  image: AssetImage('assets/images/GitHub-Mark-120px-plus.png'),
+                  height: 200,
+                ),
+                Text('Github'),
+                Text('Reposiroty'),
+              ],
             ),
-          ),
+          )),
         ));
   }
 }
