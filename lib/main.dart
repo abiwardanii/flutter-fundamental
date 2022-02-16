@@ -24,33 +24,42 @@ class MyApp extends StatelessWidget {
           ),
           body: SafeArea(
               child: Container(
-            color: Colors.blueAccent,
-            margin: EdgeInsets.all(20),
-            padding: EdgeInsets.only(top: 20, left: 20, right: 20, bottom: 20),
-            child: Column(
-              children: <Widget>[
-                Image(
-                  image: AssetImage('assets/images/GitHub-Mark-120px-plus.png'),
-                  height: 200,
-                ),
-                Padding(
-                  padding: EdgeInsets.only(
-                    top: 20.0,
-                    bottom: 4.0,
-                  ),
-                  child: Text(
-                    'Github',
-                    style: mainHeader,
-                  ),
-                ),
-                Text(
-                  'Reposiroty',
-                  style: subHeader,
-                  textAlign: TextAlign.center,
-                ),
-              ],
-            ),
-          )),
+                  color: Colors.blueAccent,
+                  margin: EdgeInsets.all(20),
+                  padding:
+                      EdgeInsets.only(top: 20, left: 20, right: 20, bottom: 20),
+                  child: Row(
+                    // rata tengah horizontal
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Column(
+                        // rata tengah vertical
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        children: <Widget>[
+                          Image(
+                            image: AssetImage(
+                                'assets/images/GitHub-Mark-120px-plus.png'),
+                            height: 200,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(
+                              top: 20.0,
+                              bottom: 4.0,
+                            ),
+                            child: Text(
+                              'Github',
+                              style: mainHeader,
+                            ),
+                          ),
+                          Text(
+                            'Reposiroty',
+                            style: subHeader,
+                            textAlign: TextAlign.center,
+                          ),
+                        ],
+                      ),
+                    ],
+                  ))),
         ));
   }
 }
